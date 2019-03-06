@@ -61,3 +61,15 @@ let sum = function(a, b) {
 */
 
 alert( sum(1, 2) ); // 3
+
+let arr = ["I", "study", "JavaScript"];
+
+arr.splice(1, 2); // from index 1 remove 1 element
+console.log(arr)
+
+let arr = ["I", "study", "JavaScript", "right", "now"];
+
+// remove 3 first elements and replace them with another
+arr.splice(0, 3, "Let's", "dance");
+
+alert( arr ) // now ["Let's", "dance", "right", "now"]
