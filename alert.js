@@ -8,16 +8,16 @@ while (i < 3) { // shows 0, then 1, then 2
   i++;
 }
 
-let i = 0;
+let k = 0;
 do {
-  alert( i );
-  i++;
-} while (i < 3);
+  alert( k );
+  k++;
+} while (k < 3);
 
 
-for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
-    alert(i);
-  }
+// for (let i = 0; i < 3; i++) { // shows 0, then 1, then 2
+//     alert(i);
+//   }
 
 // begin	i = 0	Executes once upon entering the loop.
 // condition	i < 3	Checked before every loop iteration. If false, the loop stops.
@@ -56,20 +56,20 @@ if ( checkAge(age) ) {
 }
 // show prime
 function showPrimes(n) {
-  nextPrime: for (let i = 2; i < n; i++) {
+  nextPrime: for (let q = 2; q < n; q++) {
 
-    for (let j = 2; j < i; j++) {
-      if (i % j == 0) continue nextPrime;
+    for (let j = 2; j < q; j++) {
+      if (q % j == 0) continue nextPrime;
     }
 
-    alert( i ); // a prime
+    alert( q ); // a prime
   }
 }
 
 // check prime numbers
 function isPrime(n) {
-  for (let i = 2; i < n; i++) {
-    if ( n % i == 0) return false;
+  for (let w = 2; w < n; w++) {
+    if ( n % w == 0) return false;
   }
   return true;
 }
