@@ -1,6 +1,13 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    padding-top:50px;
+}
+
 h1{
     flex-basis: 0em;
     fill-opacity: initial;
-    font: 4em sans-serif;
+    font: 3em sans-serif;
     color: rgb(17, 224, 17);
 }
